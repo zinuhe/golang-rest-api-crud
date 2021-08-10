@@ -45,8 +45,12 @@ Now run this with the following command.<br>
 <h2>Postgres DB</h2><br>
 [Docker Postgres](https://dev.to/andre347/how-to-easily-create-a-postgres-database-in-docker-4moj)
 
-`docker run --name postgres-db -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
 <br>
+
+`docker run --name postgres-db -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
+
+<br>
+
 + Last section of the command grabs the latest 'postgres' Docker image from the Docker Hub
 + **-d** means that you enable Docker to run the container in the background
 + **-p** plus the port numbers means you map the containers port **5432** to the external port **5432** this allows you to connect to it from the outside
