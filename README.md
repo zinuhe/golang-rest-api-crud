@@ -72,15 +72,16 @@ image from the Dockerfile and give it a name of 'my-postgres-db'
 We got our own image called **'my-postgres-db'**. We can run it as a container by doing the following:<br>
 `docker run -d --name my-postgresdb-container -p 5432:5432 my-postgres-db
 `
+
+To enter the container, And with exec we’ve entered a postgres-docker image in detached mode -it and started to run it’s bash app (bash)<br>
+`docker exec -it postgres-docker bash`
+
 <br><br>
 To see the images run<br>
 `docker images -a`
 
 In case you want to remove images you can run this command:<br>
 `docker image rm 'nameOfTheImage'`
-
-
-
 
 
 [Check this out for initial configuration](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/)
