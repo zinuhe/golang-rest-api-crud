@@ -40,7 +40,7 @@ golang-rest-api-crud
 Now run this with the following command.<br>
 `go run cmd/simple-service/main.go`
 
-<br><br>
+<br>
 
 [Check this out for initial configuration](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/)
 
