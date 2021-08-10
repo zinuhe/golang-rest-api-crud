@@ -61,7 +61,30 @@ You need to use the following connection details to actually connect to the DB:
 + User: postgres
 + Password: docker
 
-<br><br>
+<br>
+
+<br>
+Create the image, this line tells Docker to build an 
+image from the Dockerfile and give it a name of 'my-postgres-db'
+
+`docker build -t my-postgres-db ./`
+
+
+In order to see your images you can run<br>
+`docker images -a`
+
+we got our own image called 'my-postgres-db'. We can run it as a container by doing the following:<br>
+`docker run -d --name my-postgresdb-container -p 5432:5432 my-postgres-db
+`
+
+<br>
+In case you want to remove images you can run this command:<br>
+
+`docker image rm 'nameOfTheImage'`
+
+
+
+
 
 [Check this out for initial configuration](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/)
 
