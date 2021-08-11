@@ -68,8 +68,9 @@ You need to use the following connection details to actually connect to the DB:
 <br>
 
 <br>
+<h3>Docker file</h3>
 Create the image, this line tells Docker to build an 
-image from the Dockerfile and give it a name of 'my-postgres-db'
+image from the Dockerfile and give it a name of **'my-postgres-db'**
 
 `docker build -t my-postgres-db ./`
 
