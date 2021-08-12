@@ -38,7 +38,7 @@ golang-rest-api-crud
 
 
 Now run this with the following command.<br>
-`go run cmd/simple-service/main.go`
+`go run cmd/rest-api-crud/main.go`
 
 <br>
 
