@@ -36,7 +36,6 @@ golang-rest-api-crud
 │   go.mod
 ```
 
-
 Now run this with the following command.<br>
 `go run cmd/rest-api-crud/main.go`
 
